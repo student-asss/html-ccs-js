@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="688.62" height="678.638" viewBox="0 0 688.62 678.638">
+  <g id="menu_triangle" data-name="menu triangle" transform="translate(-892 -161.362)">
+    <g id="Polygon_1" data-name="Polygon 1" transform="matrix(0.809, 0.588, -0.588, 0.809, 1176.112, 161.362)" fill="none">
+      <path d="M250,0,500,464H0Z" stroke="none"/>
+      <path d="M 250 6.3248291015625 L 5.024139404296875 461 L 494.9758605957031 461 L 250 6.3248291015625 M 250 3.0517578125e-05 L 500 464 L 0 464 L 250 3.0517578125e-05 Z" stroke="none" fill="#55505c"/>
+    </g>
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(892 523)" fill="#55505c" stroke="#55505c" stroke-width="1">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="14.5" fill="none"/>
+    </g>
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(1292 810)" fill="#55505c" stroke="#55505c" stroke-width="1">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="14.5" fill="none"/>
+    </g>
+    <g id="Ellipse_4" data-name="Ellipse 4" transform="translate(1364 296)" fill="#55505c" stroke="#55505c" stroke-width="1">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="14.5" fill="none"/>
+    </g>
+  </g>
+</svg>

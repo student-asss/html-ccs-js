@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <class class="container">
+            <div class="row justify-content-between">
+                <a href="#home" class="logo">D<span>.</span></a>
+                <a href="#contact" class="talkButton">Hear me</a>
+            </div>
+        </class>
+    </header>
+    <!-- HOME -->
+    <section class="home" id="home">
+        <div class="container">
+            <img class="circle" id="element" src="./image/Path 1.svg" alt="loading">
+            <img class="triangle" src="./image/menu triangle.svg" alt="loading">
+
+            <div class="textHome">
+                <h1><span>Hi,</span> I'm Dragan</h1>
+                <h1>Student of Information <span>Technology</span></h1>
+                <p>I am looking for a place that will allow me further training.</p>
+                <a href="#" class="resumeButton">Resume</a>
+            </div>
+
+            <div class="social-list-item">
+                <a class="social-list-link" href="">GitHub<span>.</span></a>
+                <a class="social-list-link" href="">facebook<span>.</span></a>
+                <a class="social-list-link" href="">instagram<span>.</span></a>
+            </div>
+
+            <div class="nav">
+                <a href="#about" class="about_btn hover_dot"><span>About</span></a>
+                <a href="#work" class="work_btn hover_dot"><span>work</span></a>
+                <a href="#contact" class="contact_btn hover_dot"><span>Contact</span></a>
+                <div class="cursor"></div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="box text">
+                    <h2 class="hover_h1">A<span>About</span></h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Corrupti error rem, delectus necessitatibus inventore quis
+                        sit iure, dolores fugit exercitationem tempora,
+                        ullam expedita. Aliquid repellendus saepe facere quia!
+                    </p>
+                </div>
+                <div class="box text">
+                    <h2 class="hover_h1">S<span>Skills</span></h2>
+                    <div class="skillsBox">
+                        <div class="skills">
+                            <div class="barName">html</div>
+                            <div class="skillBar">
+                                <div class="skillPercent" percent="60"></div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <div class="barName">css</div>
+                            <div class="skillBar">
+                                <div class="skillPercent" percent="50"></div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <div class="barName">javascript</div>
+                            <div class="skillBar">
+                                <div class="skillPercent" percent="30"></div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <div class="barName">xd design</div>
+                            <div class="skillBar">
+                                <div class="skillPercent" percent="60"></div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <div class="barName">sql</div>
+                            <div class="skillBar">
+                                <div class="skillPercent" percent="70"></div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <div class="barName">python</div>
+                            <div class="skillBar">
+                                <div class="skillPercent" percent="50"></div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <div class="barName">linux</div>
+                            <div class="skillBar">
+                                <div class="skillPercent" percent="80"></div>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <div class="barName">windows</div>
+                            <div class="skillBar">
+                                <div class="skillPercent" percent="90"></div>
+                            </div>
+                        </div>
+                        <div class="skills"></div>
+                        <div class="barName">network</div>
+                        <div class="skillBar">
+                            <div class="skillPercent" percent="70"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- WORK -->
+    <section class="work" id="work">
+        <div class="container">
+            <h2 class="hover_h1">W<span>Work</span></h2>
+            <div class="row">
+                <div class="works-list">
+                    <button title="Show All Works" class="work-btn active" data-filter="all">All</button>
+                    <button title="Filter by Front-End" class="work-btn" data-filter="front-end">Front-End</button>
+                    <button title="Filter by Back-End" class="work-btn" data-filter="back-end">Back-End</button>
+                    <button title="Filter by IT Administration" class="work-btn" data-filter="it-administration">IT Administration</button>
+                </div>  
+            </div>
+            <div class="row work-items">
+
+                <div class="work-item" data-category="front-end">
+                    <div class="work-item-img">
+                        <img src="./image/Front-End.jpg" alt="img">
+                        <button class="btn info-btn">more info</button>
+                        <h3 class="work-item-title">Front-End</h3>
+                        <p>Technologies . <span>Html, Css, JavaScript</span></p>
+                        <p>Role . <span>Front-End</span></p>
+                        <p>Published . <span>15 Jun 2009</span></p>
+                    </div>
+                    <div class="work-item-details">
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Nihil earum omnis nobis repudiandae sunt aspernatur, 
+                                autem quidem, facere sapiente quos laboriosam?
+                            </p>
+                            <p class="signatur">D.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-category="it-administration">
+                    <div class="work-item-img">
+                        <img src="./image/IT-Administrator.jpg" alt="img">
+                        <button class="btn info-btn">more info</button>
+                        <h3 class="work-item-title">IT Administration</h3>
+                        <p>Technologies . <span>Linux</span></p>
+                        <p>Role . <span>IT Administration</span></p>
+                        <p>Published . <span>7 May 2009</span></p>
+                    </div>
+                    <div class="work-item-details">
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Nihil earum omnis nobis repudiandae sunt aspernatur, 
+                                autem quidem, facere sapiente quos laboriosam?earum 
+                                omnis nobis repudiandae sunt aspernatur, 
+                                autem quidem, facere sapiente dolor sit amet consectetur adipisicing elit. 
+                                Nihil earum omnis nobis repudiandae sunt aspernatur quos laboriosam?
+                            </p>
+                            <p class="signatur">D.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-item" data-category="back-end">
+                    <div class="work-item-img">
+                        <img src="./image/back-end.jpg" alt="img">
+                        <button class="btn info-btn">more info</button>
+                        <h3 class="work-item-title">Back-End</h3>
+                        <p>Technologies . <span>PhP, Python</span></p>
+                        <p>Role . <span>Back-End</span></p>
+                        <p>Published . <span>5 Jun 2019</span></p>
+                    </div>
+                    <div class="work-item-details">
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                earum omnis nobis repudiandae sunt aspernatur, 
+                                autem quidem, facere sapiente dolor sit amet consectetur adipisicing elit. 
+                                Nihil earum omnis nobis repudiandae sunt aspernatur quos laboriosam?earum omnis nobis repudiandae sunt aspernatur, 
+                                autem quidem, facere sapiente dolor sit amet consectetur adipisicing elit. 
+                                Nihil earum omnis nobis repudiandae sunt aspernatur quos laboriosam?Nihil earum omnis nobis repudiandae sunt aspernatur, 
+                                autem quidem, facere sapiente quos laboriosam?
+                            </p>
+                            <p class="signatur">D.</p>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </section>
+    <!-- WORK DESCRIPTION POPUP -->
+    <div class="work-popup">
+        <div class="popup-inner">
+            <div class="popup-content">
+                <div class="popup-header">
+                    <h2 class="popup-counter">
+                        3 of 3 ( <span>all</span> )
+                    </h2>
+                    <button title="close" class="close-btn popup-close-btn"></button>
+                </div>
+                <div class="popup-project">
+                    <div class="popup-img">
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <h3></h3>
+                <div class="popup-details">
+                    <div class="popup-description">
+                        <p></p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="hover_h1">C<span>Contact</span></h2>
+            <div class="row">
+                <div class="box info">
+                    <h3>Get in Touch</h3>
+                    <ul class="personal-info">
+                        <li>
+                            <p class='title'>Phone</p>
+                            <p class='sub-title'>+999999999</p>
+                        </li>
+                        <li>
+                            <p class='title'>Email</p>
+                            <p class='sub-title'>design@some.com</p>
+                        </li>
+                        <li>
+                            <p class='title'>ElseWhere</p>
+                            <div class="elsewhere">
+                                <a href="#">GitHub</a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="box message">
+                    <h3>Let's Talk</h3>
+                    <div class="form-box">
+                        <div class="input-box w5">
+                            <input type="text" name="" requred>
+                            <span>First Name</span>
+                        </div>
+                        <div class="input-box w5">
+                            <input type="text" name="" requred>
+                            <span>Last Name</span>
+                        </div>
+                        <div class="input-box w5">
+                            <input type="text" email="" requred>
+                            <span>Email Address</span>
+                        </div>
+                        <div class="input-box w5">
+                            <input type="text" phoneNumber="" requred>
+                            <span>Phone Number</span>
+                        </div>
+                        <div class="input-box w10">
+                            <textarea name=""></textarea>
+                            <span>Message</span>
+                        </div>
+                        <div class="input-box w3">
+                            <input type="submit" value="Submit">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- <a href="mailto:yourmail@email.com" class="footer-link">yourmail@email.com</a>
+            <ul class="social-list">
+                <li class="social-list-item"><a class="social-list-link" href="#"></a></li>
+                <li class="social-list-item"><a class="social-list-link" href="#"></a></li>
+                <li class="social-list-item"><a class="social-list-link" href="#"></a></li>
+            </ul> -->
+        </div>
+        </div>  
+    </section>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
